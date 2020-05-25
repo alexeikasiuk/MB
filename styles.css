@@ -7,27 +7,32 @@ html,
 body {
     height: 100%;
 }
-html {
-    border: 5px solid red;
-}
 body {
-    border: 5px solid green;
     font-family: Arial, Helvetica, sans-serif;
 }
 .main-wrapper {
-    border: 5px solid yellow;
     display: flex;
     flex-direction: column;
     min-height: 100%;
 }
 .header {
-    border: 5px solid silver;
+    background-color: gainsboro;
+}
+.logo img {
+    vertical-align: middle;
 }
 .main-container {
-    border: 5px solid pink;
+    background-color: whitesmoke;
     flex: 1 0 auto;
 }
+figure img {
+    max-height: 130px;
+}
 .footer {
-    border: 5px solid blue;
+    background-color: gainsboro;
     flex: 0 0 auto;
+    font-size: 0.6em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    text-align: center;
 }
