@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+html {
+    border: 5px solid red;
+}
+body {
+    border: 5px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrapper {
+    border: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.header {
+    border: 5px solid silver;
+}
+.main-container {
+    border: 5px solid pink;
+    flex: 1 0 auto;
+}
+.footer {
+    border: 5px solid blue;
+    flex: 0 0 auto;
+}
