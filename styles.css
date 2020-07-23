@@ -17,16 +17,44 @@ body {
 }
 .header {
     background-color: gainsboro;
+    text-align: center;
 }
-.logo img {
-    vertical-align: middle;
+.topnav {
+    display: inline-block;
+}
+.topnav a {
+    color: black;
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: whitesmoke;
+}
+a.active {
+    background-color: whitesmoke;
 }
 .main-container {
     background-color: whitesmoke;
     flex: 1 0 auto;
+    padding-top: 1em;
+    text-align: center;
+}
+.section {
+    display: none;
+}
+.section.active {
+    display: block;
 }
 figure img {
     max-height: 130px;
+}
+.modelNav a {
+    display: inline-block;
+    min-width: 15%;
+}
+.modelNav a.active {
+    border-bottom: 3px solid gainsboro;
 }
 .footer {
     background-color: gainsboro;
